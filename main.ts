@@ -44,13 +44,13 @@ devices.onGamepadButton(MesDpadButtonInfo._1Up, function () {
 })
 
 // turn on lights
-devices.onGamepadButton(MesDpadButtonInfo._3Up, function() {
+devices.onGamepadButton(MesDpadButtonInfo._3Up, function () {
   pins.digitalWritePin(DigitalPin.P1, 1)
 })
 
 // turn off lights
 devices.onGamepadButton(MesDpadButtonInfo._4Up, function () {
-    pins.digitalWritePin(DigitalPin.P1, 0)
+  pins.digitalWritePin(DigitalPin.P1, 0)
 })
 
 // if bluetooth is disconnected
