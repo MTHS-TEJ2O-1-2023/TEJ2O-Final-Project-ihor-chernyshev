@@ -22,12 +22,12 @@ devices.onGamepadButton(MesDpadButtonInfo.BUp, function () {
 // turn left
 devices.onGamepadButton(MesDpadButtonInfo.CUp, function () {
   robotbit.MotorRun(robotbit.Motors.M1A, 255)
-  robotbit.MotorRun(robotbit.Motors.M2A, -255)
+  robotbit.MotorRun(robotbit.Motors.M2A, -254)
 })
 
 // turn right
 devices.onGamepadButton(MesDpadButtonInfo.DUp, function () {
-  robotbit.MotorRun(robotbit.Motors.M1A, -255)
+  robotbit.MotorRun(robotbit.Motors.M1A, -254)
   robotbit.MotorRun(robotbit.Motors.M2A, 255)
 })
 
